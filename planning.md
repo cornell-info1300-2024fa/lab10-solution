@@ -3,7 +3,7 @@
 ## _Planning_ Sketch(es)
 > Include _planning_ sketch(es) of your form feedback interactivity.
 
-TODO: photo of planning sketch(es) from board
+![form feedback interactivity planning sketch](plan-interactivity.png)
 
 
 ### Pseudocode Plan
@@ -12,7 +12,11 @@ TODO: photo of planning sketch(es) from board
 > Reference each element's `id` in your pseudocode.
 
 ```
-TODO: pseudocode
+when #preorder-button is clicked:
+  remove .hidden from #feedback-name
+  remove .hidden from #feedback-email
+  remove .hidden from #feedback-tickets
+  remove .hidden from #feedback-location
 ```
 
 
@@ -21,20 +25,20 @@ TODO: pseudocode
 
 - Functionality
 
-    TODO: 1-2 sentences
+    It's confusing if the form is filled out incorrectly and the user doesn't know what they did wrong. The feedback messages provide the user with information on what they need to fix.
 
 - Affordances
 
-    TODO: 1-2 sentences
+    The Pre-Order button is rounded and looks like a button which provide a clue to the user that they can click/tap it.
 
 - Visibility
 
-    TODO: 1-2 sentences
+    The Pre-Order button is aligned to guide the user's eye through the form. When they complete the form, this action is the last thing they see.
 
 - Feedback
 
-    TODO: 1-2 sentences
+    When the Pre-Order button is activated, the messages are immediately shown.
 
 - Familiarity
 
-    TODO: 1-2 sentences
+    Many forms display feedback upon submitting a form. This design is similar.
